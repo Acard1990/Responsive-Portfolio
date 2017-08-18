@@ -14,7 +14,7 @@ body {
 
 .container {
   width: 100%;
-  max-width: 960px;
+  max-width: 85%;
   margin: 0 auto;
   clear: both;
 }
@@ -114,7 +114,7 @@ footer {
 .sidebar {
   float: right;
   width: 100%;
-  max-width: 270px;
+  max-width: 40%;
   padding: 30px;
   margin-bottom: 20px;
   background: #fff;
@@ -236,33 +236,118 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+} 
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+@media only screen and (max-width: 980px) {
+
+
+
+ 
 }
 
-@media screen (max-width: 980px) {
+@media only screen and (max-width: 768px) {
 
+  #masthead {
+    clear: both;
+    margin-bottom: 5%;
+    position: static;
+
+  }
+
+  #main-container {
+    width: 100%;
+    margin-top: 10%
+    margin: auto;
+    padding: 5px 10px 5px 10px;
+    clear: both;
+  }
+
+  .sidebar {
+    float: left;
+    max-width: 100%;
+    width: 100%;
+  }
   
+  .container {
+    padding: 2px;
+    clear: both;
+  }
+  .auth-image {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
 }
 
-@media screen (max-width: 768px) {
-
-  
+ 
 }
 
-@media screen and (max-width: 640px) {
+@media only screen and (max-width: 640px) {
   
   #masthead {
     position: static;
     margin: 0 0 10px;
+    clear: both;  
+    
   } 
 
   #main-container {
-    width: 620px
+    width: 100%;
     margin: auto;
     padding: 5px 10px 5px 10px;
   }
 
   .sidebar {
-    width: ;
+    max-width: 100%;
   }
   
+  .stupidheader, {
+    width: 100%;
+    margin: auto;
+  }
+
+  .container {
+    padding: 2px;
+    clear: both;
+  }
+  
+  nav {
+    clear: both;
+    width: 100%;
+    margin: auto;
+    padding: 1% 15% 1% 15%;
+  }
+
+  #logo {
+    width: 100%;
+    clear: both;
+  }
+
+  p {
+    clear: both;
+    margin-top: 3%;
+  }
+
+  .imagescale {
+    width: 98%;
+    margin: auto;
+    clear: both;
+  }
 }
+
+
